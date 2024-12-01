@@ -48,6 +48,8 @@ public class BaseTest   {
 		  
 		  service.start();
 		  UiAutomator2Options options= new UiAutomator2Options();
+		  
+		  System.out.println("hi");
 		 
 		  options.setDeviceName(androidDeviceName);
 		  
